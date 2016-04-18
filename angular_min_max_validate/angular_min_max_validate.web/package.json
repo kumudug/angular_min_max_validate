@@ -1,0 +1,24 @@
+{
+  "name": "angular_min_max_validate.web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kumudug/angular_min_max_validate.git"
+  },
+  "author": "Kumudu Gunasekara",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/kumudug/angular_min_max_validate/issues"
+  },
+  "homepage": "https://github.com/kumudug/angular_min_max_validate#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}

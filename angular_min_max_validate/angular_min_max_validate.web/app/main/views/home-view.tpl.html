@@ -1,0 +1,13 @@
+﻿<div class="home-view">
+    <form id="mainForm" name="mainForm">
+        <div class="form-group">
+            <label for="decimal1">Decimal Values&nbsp;<i uib-tooltip="Enter values between 0.2 to 1.7" class="fa" ng-class="{'fa-info-circle info-color':mainForm.decimal1.$valid || mainForm.decimal1.$pristine, 'fa-exclamation-circle error-color':mainForm.decimal1.$invalid && !mainForm.decimal1.$pristine}" /></label>
+            <input type="number" class="form-control" id="decimal1" name="decimal1" placeholder="Enter values between 0.2 to 1.7" ng-model="vm.dec1" required ch-validate-min-max min-val="0.2" max-val="1.7">
+        </div>
+        <div class="form-group">
+            <label for="decimal2">Decimal Values&nbsp;<i uib-tooltip="Enter values between 0.1 to 2.7" class="fa" ng-class="{'fa-info-circle info-color':mainForm.decimal2.$valid || mainForm.decimal2.$pristine, 'fa-exclamation-circle error-color':mainForm.decimal2.$invalid && !mainForm.decimal2.$pristine}" /></label>
+            <input type="number" class="form-control" id="decimal2" name="decimal2" placeholder="Enter values between 0.1 to 2.7" ng-model="vm.dec2" required ch-validate-min-max min-val="0.1" max-val="2.7">
+        </div>
+        <button type="submit" class="btn" ng-disabled="mainForm.$invalid" ng-class="{'btn-primary':mainForm.$valid, 'btn-warning':mainForm.$invalid}">Submit</button>
+    </form>
+</div>

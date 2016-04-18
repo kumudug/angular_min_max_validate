@@ -234,3 +234,8 @@ _Pvt_Extensions
 
 # FAKE - F# Make
 .fake/
+/angular_min_max_validate/angular_min_max_validate.web/app/angular_min_max_validate.web.before.jshint.output.xml
+/angular_min_max_validate/angular_min_max_validate.web/assets/css/main.css
+/angular_min_max_validate/angular_min_max_validate.web/assets/css/main.min.css
+/angular_min_max_validate/angular_min_max_validate.web/lib
+/angular_min_max_validate/angular_min_max_validate.web/.bowerrc

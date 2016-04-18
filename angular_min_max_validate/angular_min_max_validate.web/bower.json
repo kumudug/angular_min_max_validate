@@ -1,0 +1,26 @@
+{
+  "name": "angular_min_max_validate.web",
+  "description": "",
+  "main": "index.html",
+  "authors": [
+    "Kumudu Gunasekara"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/kumudug/angular_min_max_validate",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "angular": "^1.5.5",
+    "angular-ui-router": "^0.2.18",
+    "bootstrap": "^3.3.6",
+    "font-awesome": "fontawesome#^4.6.1",
+    "angular-bootstrap": "^1.3.2"
+  }
+}
